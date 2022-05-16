@@ -22,7 +22,6 @@ export default class App extends Component {
     )
   }
   componentDidMount  (){
-    console.log("safta")
     setInterval(()=>{this.setState({count:this.state.count+1})},1000)
   }
 }
